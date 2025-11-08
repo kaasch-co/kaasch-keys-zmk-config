@@ -1,5 +1,0 @@
-config SHIELD_KAASCH_KEYS_LEFT
-    def_bool $(shields_list_contains,kaasch_keys_left)
-
-config SHIELD_KAASCH_KEYS_RIGHT
-    def_bool $(shields_list_contains,kaasch_keys_right)
