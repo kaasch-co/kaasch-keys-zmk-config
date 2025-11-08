@@ -1,6 +1,4 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-#include <behaviors.dtsi>
-#include <dt-bindings/zmk/keys.h>
 
 / {
     kscan0: kscan0 {
