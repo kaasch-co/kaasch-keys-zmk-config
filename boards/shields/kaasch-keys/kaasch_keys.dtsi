@@ -29,8 +29,6 @@
     };
 };
 
-/ {
-	
 	default_transform: keymap_transform0 {
         compatible = "zmk,matrix-transform";
         columns = <14>;
@@ -43,25 +41,19 @@
             RC(4,0) RC(4,1) RC(4,2) RC(4,3) RC(4,4)    RC(4,5) RC(4,6)    RC(4,7) RC(4,8)    RC(4,9) RC(4,10) RC(4,11) RC(4,12) RC(4,13)
         >;
     };
-};
 
-/ {
     physical_layout0: physical_layout_0 { // First physical layout, use different naming for other layouts
         compatible = "zmk,physical-layout";
         display-name = "Default Layout";
         kscan = <&kscan0>;
         transform = <&default_transform>;
     };
-};
 
-/ {
     chosen {
 		zmk,kscan = &kscan0;
         zmk,physical-layout = &physical_layout0;
     };
-};
 
-/ {
     keymap {
         compatible = "zmk,keymap";
 
@@ -75,4 +67,3 @@
             >;
         };
     };
-};
