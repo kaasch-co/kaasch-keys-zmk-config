@@ -1,0 +1,11 @@
+file_format: "1"
+id: kaaschkeys
+name: Kaasch Keys
+type: shield
+url: https://github.com/kaasch-co/kaasch-keys/
+requires: [nice_nano_v2]
+features:
+  - keys
+siblings:
+  - kaasch_keys_left
+  - kaasch_keys_right

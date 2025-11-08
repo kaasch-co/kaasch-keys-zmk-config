@@ -1,0 +1,5 @@
+#include "kaasch_keys.dtsi"
+
+&default_transform {
+	col-offset = <7>;
+}
